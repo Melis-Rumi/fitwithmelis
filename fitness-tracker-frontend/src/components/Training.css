@@ -1,0 +1,55 @@
+.training-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  /* Table Styling */
+  .exercise-table {
+    width: 100%;
+    border-collapse: collapse; /* Remove default spacing between cells */
+    margin-bottom: 20px;
+    text-align: center; /* Center-align text in cells */
+  }
+  
+  .exercise-table th,
+  .exercise-table td {
+    border: 1px solid #ccc; /* Add borders to table headers and cells */
+    padding: 10px; /* Add padding for better spacing */
+  }
+  
+  .exercise-table th {
+    background-color: #f9f9f9; /* Light background for header */
+    font-weight: bold; /* Bold text for headers */
+  }
+  
+  .exercise-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* Alternate row coloring for better readability */
+  }
+  
+  .exercise-table tbody tr:hover {
+    background-color: #e6f7ff; /* Highlight rows on hover */
+  }
+  
+  .exercise-table button {
+    padding: 5px 10px;
+    cursor: pointer;
+  }

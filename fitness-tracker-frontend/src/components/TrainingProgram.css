@@ -1,0 +1,102 @@
+/* TrainingProgram.css */
+
+/* General container */
+.container {
+  padding: 1rem;
+  max-width: 60rem; /* Ensure the container takes full width */
+  margin: 0 auto;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+/* Buttons */
+.button-container {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap; /* Allow buttons to wrap on smaller screens */
+}
+
+.action-button,
+.add-week-button {
+  flex: 1; /* Allow buttons to grow and take equal space */
+  min-width: 150px; /* Set a minimum width for buttons */
+  background-color: #485869;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  text-align: center;
+}
+
+.action-button:hover {
+  background-color: #16a34a;
+}
+
+.add-week-button {
+  background-color: #485869;
+}
+
+.add-week-button:hover {
+  background-color: #16a34a;
+}
+
+/* Table */
+.program-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1.5rem;
+  table-layout: fixed; /* Ensure the table respects the width */
+}
+
+.program-table th,
+.program-table td {
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  text-align: center;
+  word-wrap: break-word; /* Allow text to wrap */
+  font-size: 0.675rem; /* Smaller font size for mobile */
+}
+
+.program-table th {
+  background-color: #f3f4f6;
+  font-weight: bold;
+}
+
+.program-table td {
+  cursor: pointer;
+}
+
+.program-table td:hover {
+  background-color: #f9fafb;
+}
+
+/* No program message */
+.no-program-message {
+  text-align: center;
+  color: #6b7280;
+}
+
+/* Navigation buttons */
+.navigation-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 10px;
+  width: 300px;
+  
+}
+
+.nav-button {
+  padding: 10px 20px;
+  background-color: #485869;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.nav-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}

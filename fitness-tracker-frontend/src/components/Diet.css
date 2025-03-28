@@ -1,0 +1,122 @@
+.diet-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  /* Table Styling */
+  .diet-table {
+    width: 100%;
+    border-collapse: collapse; /* Remove default spacing between cells */
+    margin-bottom: 20px;
+    text-align: center; /* Center-align text in cells */
+  }
+  
+  .diet-table th,
+  .diet-table td {
+    border: 1px solid #ccc; /* Add borders to table headers and cells */
+    padding: 10px; /* Add padding for better spacing */
+  }
+  
+  .diet-table th {
+    background-color: #f9f9f9; /* Light background for header */
+    font-weight: bold; /* Bold text for headers */
+  }
+  
+  .diet-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* Alternate row coloring for better readability */
+  }
+  
+  .diet-table tbody tr:hover {
+    background-color: #e6f7ff; /* Highlight rows on hover */
+  }
+  
+  .diet-table button {
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+
+  /* Add these to your Diet.css file */
+
+.food-search {
+  margin: 20px 0;
+  width: 100%;
+  max-width: 400px;
+}
+
+.search-box {
+  position: relative;
+  width: 100%;
+}
+
+.search-input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.search-results {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 1000;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.search-result-item {
+  padding: 8px;
+  cursor: pointer;
+  border-bottom: 1px solid #eee;
+}
+
+.search-result-item:hover {
+  background-color: #f5f5f5;
+}
+
+.gram-input {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.gram-input input {
+  width: 100px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.input-section {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}

@@ -1,0 +1,44 @@
+.progress-container {
+  max-width: 100%;
+  min-width: 380px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.time-range-selector {
+  margin-bottom: 20px;
+}
+
+.chart-section {
+  margin-top: 10px;
+  text-align: left;
+  width: 100%; /* Ensure the chart section takes full width */
+  overflow-x: auto;
+
+}
+
+.progress-container button {
+  margin: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+canvas {
+  max-width: 100%;
+  height: auto;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.data-table th, .data-table td {
+  border: 1px solid #ddd;
+  padding: 8px;}
+
+.view-selector {
+  margin-bottom: 20px;
+}

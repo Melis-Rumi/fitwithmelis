@@ -1,0 +1,80 @@
+.metrics-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Add space between the table and the form */
+.metrics-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 40px; /* Increased margin for more space */
+  text-align: center;
+  border: 2px solid #ccc; /* Add a frame around the table */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+}
+
+.metrics-table th,
+.metrics-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.metrics-table th {
+  background-color: #f9f9f9;
+  font-weight: bold;
+}
+
+.metrics-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.metrics-table tbody tr:hover {
+  background-color: #e6f7ff;
+}
+
+.metrics-table button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+/* Form styling */
+.metrics {
+  padding-left: 15%;
+  padding-right: 15%;
+  margin-top: 20px; /* Add space between the table and the form */
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc; /* Add a border to input fields */
+  border-radius: 4px; /* Rounded corners for input fields */
+}
+
+.save-matrics {
+  margin-top: 20px; /* Add space above the save button */
+  padding: 10px 20px;
+  background-color: #485869;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.save-matrics:hover {
+  background-color: #0056b3;
+}

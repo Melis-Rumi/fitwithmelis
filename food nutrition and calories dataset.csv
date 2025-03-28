@@ -1,0 +1,6 @@
+food_item,category,calories,protein_g,carbs_g,fat_g,fiber_g,sugar_g
+Apple,Fruit,52,0.3,14,0.2,2.4,10
+Pizza,Fast Food,285,12.0,36,10.0,2.0,4
+Chicken Salad,Salad,150,14.0,10,5.0,3.0,5
+Burger,Fast Food,295,17.0,33,14.0,1.0,6
+Orange Juice,Beverage,45,0.7,11,0.2,0.2,9
