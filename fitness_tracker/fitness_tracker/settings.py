@@ -127,11 +127,11 @@ DATABASES = {
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'fitness_tracker_uowk',          # Database name
-        'USER': 'fitwithmelis',             # Database user
-        'PASSWORD': 'VgWFQ9njfSyxaUwpUUVAiIKABtBKE417',             # Database password
-        'HOST': 'dpg-cuk1l9qj1k6c73d3dfs0-a',                # Database host
-        'PORT': '5432',                     # PostgreSQL default port
+        'NAME': 'fitwithmelisdb',
+        'USER': 'fitadmin',
+        'PASSWORD': '225588fit',
+        'HOST': 'localhost',  # ← Changed from Render host
+        'PORT': '5432',
     }
 }
 
