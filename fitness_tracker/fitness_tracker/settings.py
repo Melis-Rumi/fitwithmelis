@@ -29,7 +29,9 @@ DEBUG = True
 ALLOWED_HOSTS = ['*']
 
 CORS_ORIGIN_ALLOW_ALL = True
-
+CSRF_COOKIE_SECURE = True  # Only send over HTTPS
+CSRF_COOKIE_HTTPONLY = False  # Allow JavaScript to read the cookie
+CSRF_USE_SESSIONS = False  # Store CSRF token in cookie (not session)
 # Application definition
 
 INSTALLED_APPS = [
@@ -50,7 +52,7 @@ MIDDLEWARE = [
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'corsheaders.middleware.CorsMiddleware',
-    #'django.middleware.csrf.CsrfViewMiddleware',
+    'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',  # Runs first
     'fitness_tracker.middleware.ImpersonateUserMiddleware',  # Runs after AuthenticationMiddleware
     'django.contrib.messages.middleware.MessageMiddleware',
@@ -197,7 +199,13 @@ CORS_ALLOWED_ORIGINS = [
 ]
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://fitwithme.onrender.com', 'http://localhost:3000',
+    'http://localhost:3000',
+    'http://127.0.0.1:3000',
+    'https://fitwithme.onrender.com',
+    'http://16.171.79.44',
+    'https://16.171.79.44',
+    'http://13.40.162.242:8000',  # Add this
+    'http://13.40.162.242',       # And this
 ]
 
 CORS_ALLOW_CREDENTIALS = True
